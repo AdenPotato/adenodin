@@ -1,0 +1,10 @@
+{
+    "width": 1920,
+    "height": 1080,
+    "title": "odin test",
+    "TargetFPS": 165,
+    "keymap" : {
+        "testButton": 1
+    }
+    "isDebug": true
+}
