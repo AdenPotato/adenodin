@@ -21,6 +21,9 @@ AppSettings :: struct {
     isDebug: bool,
 }
 
+DevelopSettings :: struct {
+    Actions: [dynamic] string,
+}
 
 LoadAsset :: proc(type: AssetType) {
     switch(type) {

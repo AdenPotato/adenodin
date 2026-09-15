@@ -1,7 +1,7 @@
 {
 	"width": 1920,
 	"height": 1080,
-	"title": "odin test",
+	"title": "TitleChange Test",
 	"TargetFPS": 165,
 	"keymap": {
 		"testButton": 1

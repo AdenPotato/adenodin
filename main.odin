@@ -12,12 +12,31 @@ import "AssetLoader"
 
 g_ctx: runtime.Context
 
+//CHurch turning thesis
+/*
+    Machine ---> computers
+    The following computation modals are equivilent {in terms of computibility}
+    Any one of them can be converted to any other one and keep the same language
+    if a problem can be solved by one of them, then it can be solved by any other one
+
+    1. One tape deterministic TM
+    2. Non-deterministic TM
+    3. k-tape TM, K >= 1
+    4. Any Mainstream programming language (C++. java, Python) {Real name is TM equivilent or equivilent to TM}
+    5. Alogrithm: a procedure consisting of condition steps that can be specified percicesly in a finite amount of text
+ */
+
+EntityType :: enum {
+     EntityA,
+     EntityB,
+     EntityC,
+}
 Entity :: struct {
     id: uint,    
 }
 
 World :: struct {
-    entity: [dynamic]Entity
+    entities: [dynamic]Entity
 }
 
 GameState :: struct {
